@@ -4,11 +4,11 @@
       <block type="controls_if" id="497" inline="false">
         <value name="IF0">
           <block type="sensor_object" id="524">
-            <field name="OBJECT">RIGHTFRONT</field>
+            <field name="OBJECT">RIGHTSIDE</field>
           </block>
         </value>
         <statement name="DO0">
-          <block type="movement_forward" id="570"></block>
+          <block type="movement_reverse" id="580"></block>
         </statement>
         <next>
           <block type="controls_whileUntil" id="16" inline="false">
@@ -28,7 +28,7 @@
                       </block>
                     </value>
                     <next>
-                      <block type="movement_left" id="48">
+                      <block type="movement_left" id="590">
                         <next>
                           <block type="robot_delay" id="153" inline="true">
                             <value name="DELAY">
