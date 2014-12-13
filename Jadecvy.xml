@@ -47,14 +47,6 @@
             <statement name="DO1">
               <block type="movement_right" id="642"></block>
             </statement>
-            <value name="IF2">
-              <block type="sensor_object" id="714">
-                <field name="OBJECT">RIGHTSIDE</field>
-              </block>
-            </value>
-            <statement name="DO2">
-              <block type="movement_right" id="730"></block>
-            </statement>
             <statement name="ELSE">
               <block type="movement_forward" id="170"></block>
             </statement>
