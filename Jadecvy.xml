@@ -47,6 +47,9 @@
             <statement name="DO1">
               <block type="movement_right" id="642"></block>
             </statement>
+            <statement name="DO2">
+              <block type="movement_stutter" id="746"></block>
+            </statement>
             <statement name="ELSE">
               <block type="movement_forward" id="170"></block>
             </statement>
