@@ -62,7 +62,11 @@
           </block>
         </statement>
         <next>
-          <block type="movement_stop" id="691"></block>
+          <block type="movement_right" id="701">
+            <next>
+              <block type="movement_stop" id="691"></block>
+            </next>
+          </block>
         </next>
       </block>
     </next>
