@@ -118,61 +118,48 @@
                                                                                                 <next>
                                                                                                   <block type="movement_right" id="327">
                                                                                                     <next>
-                                                                                                      <block type="robot_delay" id="381" inline="true">
+                                                                                                      <block type="robot_delay" id="383" inline="true">
                                                                                                         <value name="DELAY">
-                                                                                                          <block type="math_number" id="428">
+                                                                                                          <block type="math_number" id="435">
                                                                                                             <field name="NUM">10</field>
                                                                                                           </block>
                                                                                                         </value>
                                                                                                         <next>
-                                                                                                          <block type="movement_right" id="337">
+                                                                                                          <block type="movement_left" id="347">
                                                                                                             <next>
-                                                                                                              <block type="robot_delay" id="383" inline="true">
+                                                                                                              <block type="robot_delay" id="385" inline="true">
                                                                                                                 <value name="DELAY">
-                                                                                                                  <block type="math_number" id="435">
+                                                                                                                  <block type="math_number" id="442">
                                                                                                                     <field name="NUM">10</field>
                                                                                                                   </block>
                                                                                                                 </value>
                                                                                                                 <next>
-                                                                                                                  <block type="movement_left" id="347">
+                                                                                                                  <block type="movement_forward" id="357">
                                                                                                                     <next>
-                                                                                                                      <block type="robot_delay" id="385" inline="true">
+                                                                                                                      <block type="robot_delay" id="387" inline="true">
                                                                                                                         <value name="DELAY">
-                                                                                                                          <block type="math_number" id="442">
+                                                                                                                          <block type="math_number" id="449">
                                                                                                                             <field name="NUM">10</field>
                                                                                                                           </block>
                                                                                                                         </value>
                                                                                                                         <next>
-                                                                                                                          <block type="movement_forward" id="357">
+                                                                                                                          <block type="movement_forward" id="367">
                                                                                                                             <next>
-                                                                                                                              <block type="robot_delay" id="387" inline="true">
+                                                                                                                              <block type="robot_delay" id="398" inline="true">
                                                                                                                                 <value name="DELAY">
-                                                                                                                                  <block type="math_number" id="449">
+                                                                                                                                  <block type="math_number" id="414">
                                                                                                                                     <field name="NUM">10</field>
                                                                                                                                   </block>
                                                                                                                                 </value>
                                                                                                                                 <next>
-                                                                                                                                  <block type="movement_forward" id="367">
+                                                                                                                                  <block type="movement_forward" id="377">
                                                                                                                                     <next>
-                                                                                                                                      <block type="robot_delay" id="398" inline="true">
+                                                                                                                                      <block type="robot_delay" id="400" inline="true">
                                                                                                                                         <value name="DELAY">
-                                                                                                                                          <block type="math_number" id="414">
-                                                                                                                                            <field name="NUM">10</field>
+                                                                                                                                          <block type="math_number" id="407">
+                                                                                                                                            <field name="NUM">100</field>
                                                                                                                                           </block>
                                                                                                                                         </value>
-                                                                                                                                        <next>
-                                                                                                                                          <block type="movement_forward" id="377">
-                                                                                                                                            <next>
-                                                                                                                                              <block type="robot_delay" id="400" inline="true">
-                                                                                                                                                <value name="DELAY">
-                                                                                                                                                  <block type="math_number" id="407">
-                                                                                                                                                    <field name="NUM">100</field>
-                                                                                                                                                  </block>
-                                                                                                                                                </value>
-                                                                                                                                              </block>
-                                                                                                                                            </next>
-                                                                                                                                          </block>
-                                                                                                                                        </next>
                                                                                                                                       </block>
                                                                                                                                     </next>
                                                                                                                                   </block>
