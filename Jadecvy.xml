@@ -8,7 +8,7 @@
           </block>
         </value>
         <statement name="DO0">
-          <block type="movement_left" id="534"></block>
+          <block type="movement_forward" id="570"></block>
         </statement>
         <next>
           <block type="controls_whileUntil" id="16" inline="false">
